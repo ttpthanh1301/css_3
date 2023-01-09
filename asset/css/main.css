@@ -113,13 +113,14 @@ hr{
 /* --MAIN-2 */
 
 .container_2{
-    display: inline-block;
+    display:flex;
     justify-content: space-between;
     position:relative;
     top: 100px;
     box-sizing: border-box;
     max-width: 1200px;
     min-width: none;
+    flex-wrap: wrap;
 }
 .layout1{
     display:flex;
@@ -139,6 +140,8 @@ hr{
 .img_itembox{
     background-color:rgba(207, 203, 203, 0.801); 
     border: 5px solid white;
+    display: flex;
+    flex-wrap: wrap;
 }
 .itemh3{
     text-align: center;
@@ -201,6 +204,8 @@ hr{
         width: 77px;
         height: 40px;
         background-color:red;
+        display:flex;
+        flex-wrap: wrap;
 
 }
 .img_item2::before{

@@ -16,7 +16,7 @@ p{
     box-sizing:border-box;
 }
 grid{
-    width: 1200px;
+    width: 1000px;
     max-width: 100%;
     margin: 0 auto;   
 }
