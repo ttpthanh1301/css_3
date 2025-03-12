@@ -237,11 +237,16 @@ button{
     width: 100px;
     height: 50px;
     margin:40px;
-
+    opacity: 0,2;
+    transition-duration: 5000; 
+    transition-property: all;
+    transition: all 1s ease 0s;
 }
 .button_hover:hover{
     cursor: pointer;
     color:rgb(214, 179, 179);
+    rotate: -360deg;
+    opacity: 1;
 }
 /* CONTAINER_5 */
 .container_5{
@@ -297,6 +302,7 @@ button{
 .red{
     color: red;
 }
+
 
 
 
